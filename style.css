@@ -88,3 +88,16 @@ input{
 .forget{
     display: none;
 }
+@media(max-width:500px){
+    body{
+      height: 100svh;
+      /* width: 90%; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+        margin: 1rem;
+    }
+    
+  }
